@@ -30,10 +30,10 @@
     <div class="Container">
         <h1 class="text-2xl font-bold" data-th-text="${name}">Welcome to the home page!</h1>
         <p class="text-xl text-gray-100">GITHUB : <span data-th-text="${githubRepo}"></span></p>
-        <a data-th-href="${githubRepo}">Click to visit</a>
+        <a data-th-href="${githubRepo}" title="Github repo for Richik Dutta">Click to visit</a>
 
         <div>
-            <button class="px-4 py-4 rounded bg-red-600" data-th-href="services.html">Click here</button>
+            <button class="px-4 py-4 rounded bg-red-600" th:href="@{/services}" title="Services Page">Click here</button>
         </div>
 
         <!--flowbite content-->

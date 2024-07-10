@@ -17,7 +17,7 @@ public class PageController {
         //sending data to view
         model.addAttribute("name", "Richik");
         model.addAttribute("githubRepo", "https://github.com/richik96");
-        
+        model.addAttribute("service", "services.html");
         return "home";
     }
 
